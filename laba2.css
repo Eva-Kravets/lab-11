@@ -1,0 +1,265 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    background-image: url(Картина.jpeg);
+    background-position: left bottom; /* Изменён способ размножения фонового изображения*/
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+figure {
+    margin-top: 100px;
+    float: left;
+    margin: 50px 7px 7px 7px;
+}
+
+img /*Оформление  перенесено в CSS*/ {
+    width: 270px;
+    height: 325px;
+    margin-left: 50px;
+}
+
+#h3 {
+    display: inline;
+    opacity: 0.8;
+    background: #ffffff;
+    text-transform: uppercase;
+    position: absolute;
+    top: 470px;
+    left: 57px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.about {
+    margin-right: 50px;
+    margin-left: 370px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.notetitle, button {
+    text-transform: uppercase;
+    background: #abbec9;
+    padding: 5px;
+    display: inline;
+    font-weight: bold;
+}
+
+.note {
+    opacity: 0.8;
+    border: 1px solid #abbec9;
+    background: #ffffff;
+    padding: 7px;
+    margin: 1em 0 1em 0;
+}
+
+table {
+    opacity: 0.8;
+    background: #c1dae8;
+    margin: 50px;
+    text-align: left;
+    width: 500px;
+    border-collapse: collapse;
+}
+
+    table caption {
+        text-transform: uppercase;
+    }
+
+Td, Th /*Оформление  перенесено в CSS*/ {
+    padding: 3px;
+    border: 1px solid #85a5b8;
+    width: 250px;
+    height: 30px;
+}
+
+h1 {
+    opacity: 0.8;
+    background: #c1dae8;
+    text-transform: uppercase;
+    padding: 10px;
+    font-family: 22pt Bookman Old Style;
+}
+
+input.txt  {
+    color: #00008B;
+    background-color: #E3F2F7;
+    border: 1px inset #00008B;
+    width: 200px;
+}
+
+input .btn  {
+    color: #00008B;
+    background-color: #c1dae8;
+    border: 1px outset #00008B;
+}
+
+form {
+    width: 500px;
+    margin-top: 50px;
+}
+
+    form legend {
+        text-transform: uppercase;
+    }
+
+    form div {
+        clear: left;
+        margin: 0;
+        padding: 0;
+        padding-top: 0.6em;
+    }
+
+        form div label {
+            float: left;
+            width: 40%;
+        }
+
+ul {
+    opacity: 0.8;
+    text-transform: uppercase;
+    list-style: none;
+    margin: 0;
+    padding-left: 27%;
+    margin-top: 25px;
+    background: #c1dae8;
+    height: 50px;
+}
+
+.menu-main a {
+    text-decoration: none;
+    background: #c1dae8;
+    color: #000000;
+    padding: 0px 15px;
+    line-height: 50px;
+    display: block;
+    border-right: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    -moz-transition: all 0.3s 0.01s ease;
+    -o-transition: all 0.3s 0.01s ease;
+    -webkit-transition: all 0.3s 0.01s ease;
+}
+
+    .menu-main a:hover {
+    background: #abbec9;
+}
+
+li {
+    float: left;
+}
+
+hr /*Оформление  перенесено в CSS*/ {
+    border: none;
+    color: red;
+    background-color: #abbec9;
+    height: 3px;
+    width: 99%;
+}
+
+.blue {
+    color: blue;
+}
+
+button  {
+    opacity: 0.8;
+    margin: 5px;
+    border: 1px solid #85a5b8;
+}
+#panel, #flip {
+    border: 1px solid #ffffff;
+    margin-top: 50px;
+    opacity: 0.8;
+    width: 500px;
+    padding: 5px;
+    background-color: #abbec9;
+}
+
+#panel {
+    margin-top: 0px;
+    text-align: left;
+    opacity: 0.7;
+    background-color: white;
+    width: 410px;
+    padding: 50px;
+    display: none;
+}
+
+.ui{
+margin: 40px;
+}
+
+/*Виджеты*/
+
+#drag {
+    text-align: left;
+    opacity: 0.8;
+    width: 280px;
+    padding: 15px;
+    height: 60px;
+}
+
+#sortable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 220px;
+    height: 180px;
+}
+
+    #sortable li {
+        margin-bottom: 3px;
+        padding: 10px;
+        font-size: 20px;
+        height: 22px;
+        width: 200px;
+    }
+
+#tabs {
+    opacity: 0.9;
+    margin-top: 30px;
+    font-size: 0.7em;
+    height: 400px;
+}
+
+#tabs-2 p, #tabs-3 p, #tabs-4 p {
+    font-size: 1.2em;
+}
+
+    /*Оформляемый элемент*/
+#testcontainer {
+    margin-top: 50px;
+    padding: 10px;
+    width: 390px;
+    height: 140px;
+    border: 1px solid grey;
+}
+
+    #testcontainer h2 {
+        margin-top: 0px;
+        margin-bottom: 13px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    #testcontainer p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+
+
+#but1, #but2 {
+    opacity: 0.8;
+    margin: 5px;
+    border: 1px solid #85a5b8;
+    background-color: #abbec9;
+}
+}
